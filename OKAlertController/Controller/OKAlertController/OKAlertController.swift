@@ -61,7 +61,7 @@ alert.show(fromController: self, animated: true)
 open class OKAlertController {
 
 	/// Actual `UIAlertController` for setup and show.
-	fileprivate var alert: UIAlertController!
+    open var alert: UIAlertController!
 
 	/// Main setup logic.
 	fileprivate var proxy = OKAlertControllerProxy()
